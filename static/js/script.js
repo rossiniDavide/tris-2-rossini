@@ -1,3 +1,8 @@
+let grid= [
+[null,null,null],
+[null,null,null],
+[null,null,null]
+]
 let links = document.querySelectorAll(".gridBtn"),
 
       currentPlayer = 1,
