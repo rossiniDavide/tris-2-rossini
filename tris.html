@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+  <div class="container">
+  <h1>Il gioco del tris</h1>
+<h3> Regole:</h3><p>il tris viene giocato da due giocatori; uno di essi giocherà utilizzando le crocette, l’altro dei piccoli cerchi. Si gioca su una griglia di 3X3 caselle (9 caselle totali). Il giocatore di turno occupa una delle caselle con il suo simbolo, poi cede la mossa all’avversario.Vince il primo giocatore che riesce ad ottenere un “tris”, ovvero tre simboli adiacenti in riga, in colonna o lungo una delle diagonali.</p>
+<div id="output">
+  INIZIA IL GIOCO: TOCCA AL GIOCATORE 1
+</div>
+<div class="trisGrid">
+  <div class="row">
+<div class="col">
+<a href="#" data-row="0" data-col="0" class="gridBtn"></a>
+</div>
+<div class="col">
+<a href="#" data-row="0" data-col="1" class="gridBtn"></a>
+</div>
+<div class="col">
+<a href="#" data-row="0" data-col="2" class="gridBtn"></a>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<a href="#" data-row="1" data-col="0" class="gridBtn"></a>
+</div>
+<div class="col">
+<a href="#" data-row="1" data-col="1" class="gridBtn"></a>
+</div>
+<div class="col">
+<a href="#" data-row="1" data-col="2" class="gridBtn"></a>
+</div>aaaaaaaaaaaaa
+</div>
+<div class="row">
+<div class="col">
+<a href="#" data-row="2" data-col="0" class="gridBtn"></a>
+</div>
+<div class="col">
+<a href="#" data-row="2" data-col="1" class="gridBtn"></a>
+</div>
+<div class="col">
+<a href="#" data-row="2" data-col="2" class="gridBtn"></a>
+</div>
+</div>
+</div>
+  </div>
+  <button onclick="resetGame()" id="reset">Inizia Nuova Partita</button>
+</div>
+  <script type="text/javascript" src="static/js/script.js"></script>
+</body>
+</html>
