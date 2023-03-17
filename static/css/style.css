@@ -16,7 +16,7 @@ text-align: center;
 mix-blend-mode: normal;
 }
 
-.output{
+#output{
 margin-left: auto;
 margin-right: auto;
 color: red;
@@ -122,11 +122,19 @@ margin-top: 10px;
 text-align: center;
 width: 1086px;
 height: 231px;
-font-family: 'Fira Mono';
-font-style: normal;
 font-weight: 400;
 font-size: 22px;
 line-height: 150%;
 margin-left: auto;
 margin-right: auto;
+}
+
+.pl{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  max-height: 200px;
+  color: red;
+  font-size: 16px;
+ 
 }
