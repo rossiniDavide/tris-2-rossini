@@ -10,6 +10,19 @@ let pl = document.querySelector(".pl")
       currentPlayer = 1,
     cellIsOccupied = true
 
+let emptyCells = []
+
+    function getEmptyCells(trisGrid, emptyCells) {
+        for (i = 0; i < 3; i++) {
+            for (j = 0; j < 3; j++) {
+                if (grid[i][j] === null) {
+                    let empty = [i, j]
+                    emptyCells.push(empty)
+                }
+
+            }
+        }
+    }
 
    for (let i = 0; i < links.length; i++) {
     let link = links[i]
